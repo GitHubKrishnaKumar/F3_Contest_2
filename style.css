@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* border-bottom: 1px solid red; */
+    box-shadow: 5px 5px 5px #b1b0b0;
+}
+
+.heading{
+    width: 90%;
+    font-size:30px;
+    font-weight:600;
+    margin:10px 0px;
+    color: navy;
+}
+.take-order{
+    height: 45px;
+}
+.sub-heading{
+    margin:10px 100px 10px;
+    color: navy;
+}
+#menu-item,#order,#payment,#greet{
+    margin-left: 100px;
+    color: white;
+    margin-bottom: 10px;
+    height:25px;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#menu-item{
+    background-color: navy;
+}
+#order{
+    background-color: green;
+}
+#payment{
+    background-color: orange;
+}
+#greet{
+    background-color: rgb(230, 180, 15);
+}
+img{
+    width:100%;
+    height: 350px;
+} 
+.data{
+    display: flex;
+    width:86%;
+    margin: auto;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 20px;
+}
+.div-item{
+    width:23%;
+    height:auto;
+    border: 1px solid navy;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px #666;
+}
+.select-item{
+    display: flex;
+    width:86%;
+    margin: auto;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 20px;
+    margin-top: 80px;
+}
+.status{
+    margin-top: 50px;
+}
+.yr-order{
+    color: navy;
+}
+.yr-payment{
+    margin-left:100px;
+    color: navy;
+    margin-top: 20px;
+}
+.greet{
+    margin-left: 100px;
+    color: navy;
+}
+.footer{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    height: 22px;
+}
+/* after js pay css*/
+.pay{
+    margin-left: 100px;
+    color: rgb(0, 128, 34);
+}
